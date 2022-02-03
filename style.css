@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: burlywood;
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav{
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.topnav a {
+background-color: cadetblue;
+padding: 20px;
+text-decoration: none;
+color: white;
+}
+
+.topnav a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.content{
+display: flex;
+padding: 10px;
+}
+
+.cont-child-img{
+    flex: 1;
+    padding: 10px;
+    margin: left 20px; ;
+    text-align: center;
+}
+
+.cont-child1{
+flex: 1;
+padding: 10px;
+}
+
+.cont-child2{
+    flex: 1;
+    padding: 10px;
+}
+
+.cont-child3{
+    flex: 1;
+    padding: 10px;
+
+}
+
+.cont-4{
+    padding: 20px;
+    margin: 20px;
+    
+}
