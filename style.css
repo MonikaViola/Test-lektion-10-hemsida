@@ -1,36 +1,38 @@
-*{
-    background-color: burlywood;
+
+* {
     box-sizing: border-box;
-    font-family: 'Merriweather', serif;
+    font-family: 'Palanquin', sans-serif;
 }
 
 body{
     margin: 0;
 }
 
-.header{
-    
+.header {
+    background-color: burlywood;
+   
     text-align: center;
     padding: 20px;
+  
 }
 
 .topnav{
-    background-color: cadetblue;
+    background-color: rgb(243, 216, 181);
     padding: 20px;
     text-align: center;
-    
+   
 }
 
 .topnav a {
-background-color: cadetblue;
+color: black;
 padding: 20px;
 text-decoration: none;
-color: white;
+
 }
 
 .topnav a:hover{
     background-color: blanchedalmond;
-    color: black;
+    color: rgb(92, 53, 2);
 }
 
 .content{
@@ -41,8 +43,8 @@ padding: 10px;
 .cont-child-img{
     flex: 1;
     padding: 10px;
-    margin: left 20px; ;
-    text-align: center;
+    margin-left: 20px; ;
+    
 }
 
 .cont-child1{
