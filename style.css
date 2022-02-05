@@ -68,3 +68,9 @@ padding: 10px;
     margin: 20px;
     
 }
+
+@media (max-width:500px){
+    .content {
+        flex-direction: column; /* vilket håll containern ska lägga sig, column lägger dom på varandra vertikalt top till bottom.*/
+      }
+ } 
